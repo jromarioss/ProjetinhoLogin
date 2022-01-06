@@ -26,40 +26,23 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 450px;
-    height: 500px;
+    width: 430px;
+    height: 450px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
 }
 
-/* imagem */
-
-img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    margin-top: 50px;
-}
-
-#olhoSenha {
-    position: absolute;
-    left: 290px;
-    top: 216px;
-    width: 18px;
-    height: 18px;
-}
-
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 label {
     display: block;
-    text-align: center;
-    margin-right: 56px;
     margin-top: 5px;
+    margin-left: 65px;
     margin-bottom: 5px;
 }
 
@@ -70,19 +53,21 @@ label:nth-child(5) {
 input {
     display: block;
     margin: auto;
+    width: 300px;
     height: 18px;
     padding: 3px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
-input:nth-child(4):hover, input:nth-child(6):hover {
+input:hover {
     box-shadow: 0px 0px 10px rgb(255, 31, 31);
+    transition: all 0.5s;
 }
 
-#btLogar {
+#btcadastro {
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100px;
     height: 30px;
     font-weight: bolder;
@@ -91,9 +76,8 @@ input:nth-child(4):hover, input:nth-child(6):hover {
     background-color: rgb(252, 134, 134);
 }
 
-#btLogar:hover {
+#btcadastro:hover {
     border: 2px solid rgba(0, 0, 0, 0.247);
-    transition: all 0.5s;
 }
 
 p {

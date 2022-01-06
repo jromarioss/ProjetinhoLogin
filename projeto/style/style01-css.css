@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-/* body {
-    text-align: center;
-} */
-
 /* Container */
 #container {
     margin: auto;
@@ -27,27 +23,9 @@
     transform: translate(-50%, -50%);
     background-color: white;
     width: 450px;
-    height: 500px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
-}
-
-/* imagem */
-
-img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    margin-top: 50px;
-}
-
-#olhoSenha {
-    position: absolute;
-    left: 290px;
-    top: 216px;
-    width: 18px;
-    height: 18px;
 }
 
 h2 {
@@ -55,35 +33,27 @@ h2 {
     text-align: center;
 }
 
-label {
-    display: block;
-    text-align: center;
-    margin-right: 56px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-label:nth-child(5) {
-    margin-right: 130px;
-}
 
 input {
     display: block;
     margin: auto;
+    width: 180px;
     height: 18px;
     padding: 3px;
     padding-left: 10px;
+    margin-top: 10px;
 }
 
-input:nth-child(4):hover, input:nth-child(6):hover {
+input:nth-child(3):hover {
     box-shadow: 0px 0px 10px rgb(255, 31, 31);
+    transition: all 0.5s;
 }
 
-#btLogar {
+#btPesquisar {
     display: block;
     margin: auto;
     margin-top: 10px;
-    width: 100px;
+    width: 150px;
     height: 30px;
     font-weight: bolder;
     border-radius: 5px;
@@ -91,14 +61,26 @@ input:nth-child(4):hover, input:nth-child(6):hover {
     background-color: rgb(252, 134, 134);
 }
 
-#btLogar:hover {
+#btPesquisar:hover {
     border: 2px solid rgba(0, 0, 0, 0.247);
-    transition: all 0.5s;
 }
-
 p {
     text-align: center;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
     margin-top: 9px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bolder;
+    color: black;
 }
 
 a:hover {
